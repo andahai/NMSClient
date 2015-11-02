@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>IP无损切换器</title>
+		<script type="text/javascript" src="client/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="client/js/json2.js"></script>
+		<script type="text/javascript" src="client/js/sprintf.min.js"></script>
+		<script type="text/javascript" src="client/js/Validation.js"></script>
+		<script type="text/javascript" src="client/js/additional.js"></script>
+		<script type="text/javascript" src="client/js/passwd.js"></script>
+		<link rel="stylesheet" type="text/css" href="client/css/global.css">
+		<link rel="stylesheet" type="text/css" href="client/css/passwd.css">
+	</head>
+	<body>
+	<div id="header">
+		<img id="slogan" src="client/img/logo/slogan.png">
+	</div>
+	<div id="content">
+		<div id="menu">
+			<ul>
+			<li><a href="gatexstate">状态监测</a></li>
+			<li><a href="gatextraffic">接口流量</a></li>
+			<li><a href="gatexconfig">系统配置</a></li>
+			<li><a href="passwdconfig">修改口令</a></li>
+			<li><a href="logout">退出系统</a></li>
+			</ul>
+		</div>
+		<div class="report">
+			<form action="changePasswd" method="post">
+				<table id="login">
+					<caption>修改口令(当前登录站点：<span id="localStation"></span>)</caption>
+					<tr>
+						<th>用户名</th>
+						<td>
+							<input type="text" name="user" value="admin" class="required" />
+						</td>
+					</tr>
+					<tr>
+						<th>密码</th>
+						<td>
+							<input id="passwd" type="password" name="passwd" value="admin" class="required"/>
+						</td>
+					</tr>
+					<tr>
+						<th>确认密码</th>
+						<td>
+							<input id="passwdAgain" type="password" name="passwdAgain" value="admin" class="required"/>
+						</td>
+					</tr>
+				</table>
+				<input  class="submit" type="submit" value="修改"/>
+			</form>
+		</div>
+	</div>
+	</body>
+</html>

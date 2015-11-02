@@ -1,0 +1,16 @@
+table th{
+    min-width: 90px;
+}
+table tr td{
+    font-family:'Times New Roman';
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+}
+table td:first-child{
+	text-align:left;
+	white-space: pre;
+}
+input{
+    margin: 20px 0px 0px 20px;
+}

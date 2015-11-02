@@ -1,0 +1,83 @@
+html{
+    min-width:1300px;
+}
+#header{
+    background-image: url(../img/logo/bg.png);
+    height: 78px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+#pannet{
+    height: 78px;
+    float: left;
+}
+#slogan{
+    float: left;
+    height: 78px;
+}
+#white{
+    height: 78px;
+    float: left;
+}
+#content{
+    background-color: #0052A4;
+    height: 800px;
+    width: 100%;
+}
+#menu{
+    float: left;
+    margin: 16px 0px 16px 0px;
+    float: left;
+}
+#menu ul{
+    list-style: none;
+}
+#menu li{
+    margin: 10px 0px;
+    color: white;
+}
+.report{
+    background-color: white;
+    margin: 5px 0px 0px 0px;
+    border-radius: 15px 0px 0px 0px;
+    height: 795px;
+    width: 90%;
+    float: right;
+}
+.fullScreen{
+    float:left;
+    width:100%;
+    border-radius:0px;
+    margin:0px
+}
+table caption{
+    text-align:left;
+    padding:3px 10px;
+    border:solid #888888;
+    background-color:#6699FF;
+    border-width:2px 2px 0px 2px;
+    font:1.1em '楷体';
+    color:white;
+}
+table{
+    border: thin solid gray;
+    border-spacing: 0px;
+    color:#000000;
+    margin: 30px 0px 0px 20px;
+}
+table th{
+    color:#0052A4;
+    font-family:'Times New Roman';
+    font-weight:normal;
+}
+table td,th{
+    border: thin solid gray;
+    text-align: center;
+}
+#menu a{
+    color:white;
+}
+body{
+    margin: 0px 0px 0px 0px;
+}
+

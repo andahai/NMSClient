@@ -1,0 +1,57 @@
+form{
+    width: 946px;
+}
+.station td{
+    text-align: left;
+}
+.station td:first-child{
+    width: 130px;
+}
+.station input{
+    width: 500px;
+    margin: 0px;
+}
+
+.interface input{
+    width: 150px;
+}
+.interface td{
+    width: 150px;
+    text-align: left;
+}
+form + form input{
+    float: right;
+    margin: 20px 0px 0px 20px;
+}
+form:last-child input{
+    margin: 20px 0px 0px 0px;
+}
+table tr td{
+    font-family:'Times New Roman';
+    font-size: 15px;
+}
+.station input{
+    height: 18px;
+    font-family:'Times New Roman';
+    font-size: 15px;
+    margin: 0px;
+}
+.interface input,textarea{
+    height: 20px;
+    font-family:'Times New Roman';
+    font-size: 15px;
+    margin: 0px;
+}
+#seniorConfigButton{
+    float: right;
+    margin: 20px 0px 0px 20px;
+}
+
+label.error{
+    color: red;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    margin: 0px 10px 0px 10px;
+
+}
+

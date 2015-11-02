@@ -1,0 +1,31 @@
+input{
+    margin: 20px 0px 0px 20px;
+}
+table a{
+    margin: 0px 5px 0px 5px;
+}
+table tr td{
+    font-family:'Times New Roman';
+    font-size: 15px;
+}
+table tr td:last-child,td:first-child{
+    text-align: left;
+    white-space: pre;
+}
+#globalConfig{
+    float: left;
+}
+form{
+    float: left;
+}
+.diff{
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    font-size: 20px;
+    margin: 0px;
+}
+a{
+	color:blue;
+}

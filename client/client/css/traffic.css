@@ -1,0 +1,16 @@
+table{
+    width:800px ;
+}
+input{
+    margin: 20px 0px 0px 20px;
+}
+table{
+    white-space: pre;
+}
+#stationTraffic td:first-child{
+    text-align: left;
+}
+table tr td{
+    font-family:'Times New Roman';
+    font-size: 15px;
+}
