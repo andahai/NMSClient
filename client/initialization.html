@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>IP无损切换器</title>
+	<script type="text/javascript" src="client/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="client/js/sprintf.min.js"></script>
+	<script type="text/javascript" src="client/js/initialization.js"></script>
+	<script type="text/javascript" src="client/js/Validation.js"></script>
+	<script type="text/javascript" src="client/js/additional.js"></script>
+	<script type="text/javascript" src="client/js/json2.js"></script>
+	<link rel="stylesheet" type="text/css" href="client/css/global.css">
+	<link rel="stylesheet" type="text/css" href="client/css/initialization.css">
+</head>
+<body>
+	<div id="header">
+		<img id="slogan" src="client/img/logo/slogan.png">
+	</div>
+	<div id="content">
+		<div id="report">
+			<form id="initForm">
+				<table id="initTable" class="station">
+					<caption>初始化配置</caption>
+					<tr>
+						<td>设备接口</td>
+						<td>
+							<input id="ethName" name="ethName" type="text"/>
+						</td>
+					</tr>
+					<tr>
+						<td>vlan号</td>
+						<td>
+							<input id="vlanID" name="vlanID" type="text"/>
+						</td>
+					</tr>
+					<tr>
+						<td>设备IP</td>
+						<td>
+							<input id="localIP" name="localIP" type="text"/>
+						</td>
+					</tr>
+					<tr>
+						<td>本地网关IP</td>
+						<td>
+							<input id="localGatewayIP" name="localGatewayIP" type="text"/>
+						</td>
+					</tr>
+					<tr>
+						<td>远端网关IP</td>
+						<td>
+							<input id="remoteGatewayIP" name="remoteGatewayIP" type="text"/>
+						</td>
+					</tr>
+					<tr>
+						<td>连通性测试</td>
+						<td id="pingState">
+
+						</td>
+					</tr>
+				</table>
+				<input type="button" onclick="formSave()"  value="保存"  style="float: right;margin: 50px 150px 0px 0px;"/>
+				<input type="button" id="reset" value="重置" style="float: right;margin: 50px 20px 0px 0px;"/>
+				<input type="button" id="ping" value="连通性测试" style="float: right;margin: 50px 20px 0px 0px;"/>
+
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>
